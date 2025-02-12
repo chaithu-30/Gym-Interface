@@ -1,4 +1,6 @@
-var countDownDate = new Date("Jun 5, 2026 15:37:25").getTime();
+var countDownDate = new Date();
+countDownDate.setDate(countDownDate.getDate() + 2);
+countDownDate.setHours(0, 0, 0, 0);
 
 var x = setInterval(function () {
   var now = new Date().getTime();
